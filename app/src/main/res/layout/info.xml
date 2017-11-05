@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    android:background="#28374b">
+
+    <ImageView
+        android:id="@+id/canceli"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:textSize="30dp"
+        android:clickable="true"
+        android:text="x"
+       android:background="@drawable/canceldes"
+        android:layout_gravity="end"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Foxo Gyan"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" A Mozilla club"
+            android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Presents"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@mipmap/pic1"
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/infotext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

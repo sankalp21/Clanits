@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#5c66f4</color>
+    <color name="color">#1919b3</color>
+    <color name="color1">#fff711</color>
+    <color name="white">#fff</color>
+    <color name="secbackground">#dfdede</color>
+    <color name="btnstroke">#080808</color>
+    <color name="splashdarkyellow">#c49b1e</color>
+    <color name="splashred">#e64438</color>
+    <color name="splashbrightorange">#e77237</color>
+    <color name="splashbrightorange1">#ec7033</color>
+    <color name="splashdullorange">#ef9605</color>
+    <color name="splashdullorange1">#ef9a10</color>
+</resources>

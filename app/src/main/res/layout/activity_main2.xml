@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.sankalpsinha.sharedpref.Main2Activity"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageButton
+            android:id="@+id/info"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="ShowPop"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/info_des"/>
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:visibility="invisible"
+            android:src="@mipmap/ggitslogo"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:id="@+id/logo1"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@mipmap/clanlo"
+            android:layout_marginTop="40dp"
+            android:layout_above="@+id/name"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GGITS"
+            android:visibility="invisible"
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="#050505"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/name1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/cl"
+            android:visibility="invisible"
+            android:layout_marginTop="144dp"
+            android:layout_below="@+id/info"
+            android:layout_centerHorizontal="true" />
+        <LinearLayout
+            android:id="@+id/btnlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:scrollbars="vertical"
+            android:layout_marginTop="57dp"
+            android:layout_below="@+id/name"
+            android:layout_centerHorizontal="true">
+
+
+            <Button
+                android:id="@+id/btnlogin"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:text="Sign In"
+                android:textColor="@color/white"
+                android:onClick="ShowPop"
+                android:shadowColor="@color/colorPrimary"
+                android:background="@drawable/btndesign1"/>
+
+            <Button
+
+                android:id="@+id/btnreg"
+                android:layout_width="250dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="60dp"
+                android:text="Register"
+                android:onClick="ShowPop"
+                android:textColor="@color/white"
+                android:background="@drawable/btndesign1" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textSize="19dp"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true"
+          />
+
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatminf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/facebook"
+                android:layout_above="@+id/txt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/google"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/txt"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
+    <!--="#dfdede"-->
